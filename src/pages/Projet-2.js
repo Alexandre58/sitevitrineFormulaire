@@ -1,41 +1,55 @@
 import React, { useState } from "react";
+import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
 
 const Projet2 = () => {
   const [names, setNames] = useState([
     {
       id: 1,
-      nom: "Thierry",
+      prenom: "Thierry",
+      ville: "Treigny",
     },
     {
       id: 2,
-      nom: "Béatrice",
+      prenom: "Béatrice",
+      ville: "Treigny",
     },
     {
       id: 3,
-      nom: "Tim",
+      prenom: "Tim",
+      ville: "Eloise",
     },
     {
       id: 4,
-      nom: "Tony",
+      prenom: "Tony",
+      ville: "Blois",
     },
     {
       id: 5,
-      nom: "Cyndie",
+      prenom: "Cyndie",
+      ville: "Toulon",
     },
     {
       id: 6,
-      nom: "Louna",
+      prenom: "Louna",
+      ville: "Toulon",
     },
   ]);
   console.log(names);
   console.log(setNames);
-  const mapDeNames = names.map((index) => <li key={index.id}>{index.nom}</li>);
+  const mapDeNames = names.map((index) => (
+    <li key={index.id}>
+      {index.prenom} domincilié à {index.ville}
+    </li>
+  ));
   return (
     <>
+      <Navigation />
       <div className="projet2_h1_container">
         <h1 className="projet2_h1">Projet 2</h1>
         <ul>{mapDeNames}</ul>
       </div>
+      <Footer title={"Projet 2"} num={".map sur tableau"} />
     </>
   );
 };

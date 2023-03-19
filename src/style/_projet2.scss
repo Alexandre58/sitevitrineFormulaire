@@ -13,7 +13,13 @@
     align-items: center;
     gap: 1em;
     padding: 1em;
-    letter-spacing: 1em;
+    letter-spacing: 0.5em;
+  }
+  & li {
+    border: solid 1px black;
+    padding: 1em;
+    width: 90%;
+    font-weight: 800;
   }
 }
 .projet_2_form {

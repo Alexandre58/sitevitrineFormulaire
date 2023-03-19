@@ -60,4 +60,19 @@
       transform: scale(1.02);
     }
   }
+  .div_mapSurTableauSansAPI {
+    background-color: rgb(79, 161, 233);
+  }
+}
+
+.div_mapSurTableauSansAPI {
+  display: flex;
+  background-color: rgb(79, 161, 233);
+  justify-content: space-around;
+  font-size: 1.5em;
+  padding: 1em;
+}
+.div_mapSurTableauSansAPI_p {
+  text-align: center;
+  font-size: 1.8em;
 }

@@ -4,7 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Révision React aprés quelques temps sans coder, en prévision d'utiliser Nextjs.
+
+Code à récuperer pour d'autres projet , les formulaires par exemple.
+
+Utile également pour faire des essais frontEnt pour l'instant.
+
+## Démarrage rapide frontend...
+
+Terminal dans le fichier frontend
 
 ### `npm start`
 

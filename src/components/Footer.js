@@ -1,7 +1,6 @@
 import React from "react";
 
 const Footer = ({ children, title, num }) => {
-  console.log(children, title);
   return (
     <div className="footer_div">
       <h1 className="footer_h1">footer</h1>

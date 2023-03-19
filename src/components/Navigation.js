@@ -15,7 +15,7 @@ const Navigation = () => {
           </NavLink>
           {/******************************************************NAVIGATION DU PORTFOLIO AVEC LES PROJET EN HOVER */}
           <li className="navigation_li li_navigation ">
-            portfolio
+            Projets
             <ul className="portfolio_navigation_des_projets">
               {/**PROJET1 */}
               <NavLink
@@ -43,7 +43,7 @@ const Navigation = () => {
                   nav.isActive ? "nav-active hover" : "hover"
                 }
               >
-                <li className="li_navigation">Projet 3</li>
+                <li className="li_navigation">Formulaire UseRef</li>
               </NavLink>
               {/**PROJET4 */}
               <NavLink
@@ -52,7 +52,7 @@ const Navigation = () => {
                   nav.isActive ? "nav-active hover" : "hover"
                 }
               >
-                <li className="li_navigation">Projet 4</li>
+                <li className="li_navigation">Formulaire useState</li>
               </NavLink>
               {/**PROJET5 */}
               <NavLink
@@ -61,7 +61,7 @@ const Navigation = () => {
                   nav.isActive ? "nav-active hover" : "hover"
                 }
               >
-                <li className="li_navigation">Projet 5</li>
+                <li className="li_navigation">Api useEffect</li>
               </NavLink>
             </ul>
           </li>

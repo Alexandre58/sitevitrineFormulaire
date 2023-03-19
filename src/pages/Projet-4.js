@@ -110,12 +110,15 @@ export default function App() {
               onChange={updateUserDataHandler("passwordConfirmation")}
             />
           </div>
-          <button className="bg-blue-500" type="submit">
-            Envoyer
-          </button>
+          <input
+            className="bg-blue-500"
+            type="submit"
+            value="envoyer"
+            autoComplete="on"
+          />
         </form>
       </div>
-      <Footer />
+      <Footer title={"Projet 4"} num={"useState, useCallback"} />
     </>
   );
 }

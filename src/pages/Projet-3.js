@@ -99,12 +99,15 @@ const Projet3 = () => {
               className="shadowappearance"
             />
           </div>
-          <button className="bg-blue-500" type="submit">
-            Submit
-          </button>
+          <input
+            className="bg-blue-500"
+            type="submit"
+            autoComplete="on"
+            value="Envoyer"
+          />
         </form>
       </div>
-      <Footer title={" bonjour footer"} num={5} />
+      <Footer title={"Projet 3"} num={"useCallback, useRef"} />
     </>
   );
 };
