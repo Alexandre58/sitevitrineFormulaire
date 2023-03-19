@@ -1,0 +1,17 @@
+@import "./header";
+@import "_footer";
+@import "_notfound";
+@import "_navigation";
+@import "_contact";
+@import "_bouton";
+@import "_projet-1";
+@import "_projet2";
+@import "_projet3";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}

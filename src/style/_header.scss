@@ -1,0 +1,10 @@
+.header_div {
+  display: flex;
+  justify-content: center;
+  background-image: url("../assets/images/body-background.jpg");
+  height: 5vh;
+  .header_h1 {
+    color: rgba(172, 172, 215, 0.558);
+    letter-spacing: 2em;
+  }
+}

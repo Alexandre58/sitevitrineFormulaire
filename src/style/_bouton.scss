@@ -1,0 +1,27 @@
+.bouton_container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 50vw;
+  row-gap: 2em;
+  .bouton_p_affichageDisLikesLikes {
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+    padding: 1em;
+  }
+  .ButtonContact_1 {
+    border-radius: 15px;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 800;
+  }
+  .ButtonContact_2 {
+    padding: 1em;
+    background: red;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 800;
+  }
+}
